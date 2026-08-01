@@ -1,0 +1,60 @@
+.cert-table__wrapper {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  overflow-x: auto;
+}
+
+.cert-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  min-width: 640px;
+}
+
+.cert-table thead th {
+  text-align: left;
+  padding: var(--space-4) var(--space-5);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7a94;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-tint);
+}
+
+.cert-table tbody td {
+  padding: var(--space-4) var(--space-5);
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-ink);
+}
+
+.cert-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.cert-table tbody tr:hover {
+  background: var(--color-accent-soft);
+}
+
+.cert-table__actions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.cert-table__actions button {
+  border: 1px solid var(--color-border-strong);
+  background: var(--color-white);
+  color: var(--color-primary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-sm);
+  transition: background var(--transition), color var(--transition);
+}
+
+.cert-table__actions button:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+}

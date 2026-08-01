@@ -1,0 +1,47 @@
+:root {
+  /* ---- Color: deep ledger blue + parchment white, seal-red reserved for status only ---- */
+  --color-ink: #16213a;          /* primary text, near-navy rather than flat black */
+  --color-navy: #0f2c5c;         /* deep institutional blue */
+  --color-primary: #1b4b8f;      /* primary brand blue */
+  --color-primary-dark: #123564;
+  --color-accent: #2d6fe0;       /* interactive / link blue */
+  --color-accent-soft: #eaf1fd;
+  --color-tint: #f4f8fd;         /* page background wash */
+  --color-white: #ffffff;
+  --color-border: #dde6f3;
+  --color-border-strong: #c3d4ec;
+
+  --color-success: #1f8f52;
+  --color-success-tint: #e7f7ee;
+  --color-warning: #b5760f;
+  --color-warning-tint: #fbf1de;
+  --color-danger: #c23f3f;
+  --color-danger-tint: #fbeaea;
+
+  /* ---- Type ---- */
+  --font-display: 'Lora', 'Georgia', serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+
+  /* ---- Spacing scale ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  /* ---- Radius & shadow ---- */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --shadow-sm: 0 1px 2px rgba(15, 44, 92, 0.06), 0 1px 1px rgba(15, 44, 92, 0.04);
+  --shadow-md: 0 6px 20px rgba(15, 44, 92, 0.08), 0 2px 6px rgba(15, 44, 92, 0.05);
+  --shadow-lg: 0 18px 40px rgba(15, 44, 92, 0.14), 0 6px 16px rgba(15, 44, 92, 0.08);
+
+  --max-width: 1180px;
+  --transition: 180ms ease;
+}

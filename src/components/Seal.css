@@ -1,0 +1,35 @@
+.seal {
+  flex-shrink: 0;
+}
+
+.seal--primary .seal__scallop { fill: var(--color-primary); }
+.seal--primary .seal__face { fill: var(--color-navy); }
+
+.seal--white .seal__scallop { fill: var(--color-white); }
+.seal--white .seal__face { fill: var(--color-accent-soft); }
+.seal--white .seal__check { stroke: var(--color-navy); }
+
+.seal--success .seal__scallop { fill: var(--color-success); }
+.seal--success .seal__face { fill: #145c36; }
+
+.seal__check {
+  fill: none;
+  stroke: var(--color-white);
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.seal--stamp {
+  animation: stamp-in 520ms cubic-bezier(0.2, 1.4, 0.4, 1) both;
+}
+
+@keyframes stamp-in {
+  0% { transform: scale(2.2) rotate(-14deg); opacity: 0; }
+  60% { transform: scale(0.94) rotate(3deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .seal--stamp { animation: none; }
+}
