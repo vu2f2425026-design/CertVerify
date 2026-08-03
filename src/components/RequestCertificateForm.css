@@ -1,0 +1,75 @@
+.request-form-container {
+  max-width: 520px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.request-form-container h2 {
+  margin-bottom: 0.25rem;
+  color: #12153d;
+}
+
+.request-form-subtitle {
+  color: #666;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.request-form .form-group {
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.request-form label {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #12153d;
+}
+
+.request-form input,
+.request-form select,
+.request-form textarea {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.request-form input:focus,
+.request-form select:focus,
+.request-form textarea:focus {
+  outline: none;
+  border-color: #12153d;
+}
+
+.form-error {
+  color: #c0392b;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+.form-success {
+  color: #1a7f37;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.request-form-submit {
+  background: #12153d;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.request-form-submit:hover {
+  background: #1e2266;
+}
