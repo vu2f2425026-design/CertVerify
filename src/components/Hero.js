@@ -13,9 +13,8 @@ function Hero() {
           Verify academic certificates <em>instantly</em>.
         </h1>
         <p className="hero__description">
-          CertVerify lets institutions issue tamper-evident digital
-          certificates, and gives employers a certificate ID and a single
-          search box to confirm they're genuine — no phone calls, no waiting.
+          CertVerify gives every certificate a unique ID and lets employers
+          confirm it's genuine with a single search — no phone calls, no waiting.
         </p>
         <div className="hero__actions">
           <Link to="/verify" className="btn btn--primary">

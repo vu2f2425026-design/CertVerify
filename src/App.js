@@ -8,6 +8,7 @@ import ContactPage from './pages/ContactPage';
 import StudentDashboard from './pages/StudentDashboard';
 import InstitutionDashboard from './pages/InstitutionDashboard';
 import VerificationPage from './pages/VerificationPage';
+import RequestCertificateForm from "./components/RequestCertificateForm";
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/student" element={<StudentDashboard />} />
           <Route path="/institution" element={<InstitutionDashboard />} />
           <Route path="/verify" element={<VerificationPage />} />
+          <Route path="/request-certificate" element={<RequestCertificateForm />} />
         </Routes>
       </main>
       <Footer />

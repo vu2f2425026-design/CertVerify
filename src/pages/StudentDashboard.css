@@ -69,3 +69,14 @@
     grid-template-columns: 1fr;
   }
 }
+
+.request-cert-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  background: #12153d;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
