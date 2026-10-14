@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./RequestCertificateForm.css";
 
 const initialState = {
@@ -12,6 +12,12 @@ function RequestCertificateForm() {
   const [formData, setFormData] = useState(initialState);
   const [errors, setErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
+  // Hide the success message automatically after 3 seconds
+useEffect(() => {
+  if (!submitted) return;
+  const timer = setTimeout(() => setSubmitted(false), 3000);
+  return () => clearTimeout(timer);
+}, [submitted]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
